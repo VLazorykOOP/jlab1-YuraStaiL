@@ -18,11 +18,11 @@ public class Task1 {
 
         System.out.println("Result(double): " + (double) (( (x_i + y_i) * (x_i + y_i) * (x_i + y_i) * (x_i - y_i)) / (x_i*x_i + y_i*y_i)) + x_i*y_i );
 
-        System.out.println("Enter x(double) and y(double): ");
+        System.out.println("Enter x(int) and y(int): ");
         x = in.nextInt();
         y = in.nextInt();
 
-        System.out.println("Result(double): " + (int)( (( (x + y) * (x + y) * (x + y) * (x - y)) / (x*x + y*y)) + x*y) );
-        in.close();
+        System.out.println("Result(int): " + (int) ( (( (x + y) * (x + y) * (x + y) * (x - y)) / (x*x + y*y)) + x*y) );
+        in.close(); 
     }
 }
